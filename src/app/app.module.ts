@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './hero/about/about.component';
 import { ProjectsComponent } from './hero/projects/projects.component';
 import { ContactComponent } from './hero/contact/contact.component';
+import { CustomCursorDirective } from './custom-cursor.directive';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { ContactComponent } from './hero/contact/contact.component';
     AboutComponent,
     ProjectsComponent,
     ContactComponent,
+    CustomCursorDirective,
   ],
   imports: [BrowserModule],
   providers: [],
