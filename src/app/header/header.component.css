@@ -2,26 +2,42 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 20px;
-  background-color: #333;
-  color: #fff;
+  background-color: #fff;
+  color: #000;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  width: 100%;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
-.header__left h1 {
-  margin: 0;
+.left {
+  flex: 1;
 }
 
-.nav-menu {
+.center {
+  flex: 2;
+  text-align: center;
+}
+
+.right {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul {
   list-style-type: none;
-  margin: 0;
   padding: 0;
 }
 
-.nav-menu li {
-  margin-bottom: 10px; /* Add margin-bottom to create space between items */
+nav ul li {
+  display: inline;
+  margin-right: 10px;
 }
 
-.nav-menu li a {
-  color: #fff;
+nav ul li a {
+  color: #000;
   text-decoration: none;
 }
