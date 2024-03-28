@@ -3,8 +3,15 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrl: './app.component.css'
+  styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  title = 'angular-folio';
+  isMouseMoving = false;
+
+  onMouseMove(event: MouseEvent): void {
+    this.isMouseMoving = true;
+    const mouseCursor = document.querySelector('.mouse-cursor') as HTMLElement;
+    mouseCursor.style.left = `${event.clientX}px`;
+    mouseCursor.style.top = `${event.clientY}px`;
+  }
 }

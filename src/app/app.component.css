@@ -1,0 +1,15 @@
+/* Hide the default cursor */
+body {
+  cursor: none;
+}
+
+/* Style for the orange dot */
+.mouse-cursor {
+  position: fixed;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  background-color: orange; /* Orange color */
+  pointer-events: none;
+  z-index: 9999;
+}
