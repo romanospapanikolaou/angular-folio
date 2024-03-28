@@ -10,7 +10,15 @@ import { ProjectsComponent } from './hero/projects/projects.component';
 import { ContactComponent } from './hero/contact/contact.component';
 
 @NgModule({
-  declarations: [AppComponent, HeaderComponent, HeroComponent, FooterComponent, AboutComponent, ProjectsComponent, ContactComponent],
+  declarations: [
+    AppComponent,
+    HeaderComponent,
+    HeroComponent,
+    FooterComponent,
+    AboutComponent,
+    ProjectsComponent,
+    ContactComponent,
+  ],
   imports: [BrowserModule],
   providers: [],
   bootstrap: [AppComponent],

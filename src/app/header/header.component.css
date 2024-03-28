@@ -1,35 +1,27 @@
 .header {
-  background-color: #000000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #333;
   color: #fff;
-  padding: 10px 0;
-  text-align: center;
 }
 
-.header .navbar {
-  display: flex;
-  justify-content: center;
+.header__left h1 {
+  margin: 0;
 }
 
-.header .navbar ul {
+.nav-menu {
   list-style-type: none;
+  margin: 0;
   padding: 0;
-
-  width: 100%; /* Set ul to use entire width of the navbar */
-
-  display: flex;
-  justify-content: center;
 }
 
-.header .navbar ul li {
-  margin-right: 20px;
-  width: 100%; /* Set ul to use entire width of the navbar */
+.nav-menu li {
+  margin-bottom: 10px; /* Add margin-bottom to create space between items */
 }
 
-.header .navbar ul li a {
+.nav-menu li a {
   color: #fff;
   text-decoration: none;
-}
-
-.header .navbar ul li:last-child {
-  margin-right: 0;
 }
