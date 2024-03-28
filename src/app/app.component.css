@@ -1,15 +1,22 @@
 /* Hide the default cursor */
-body {
+.container {
   cursor: none;
 }
 
 /* Style for the orange dot */
 .mouse-cursor {
   position: fixed;
-  width: 15px;
-  height: 15px;
+  width: 15px; /* Adjust the size as needed */
+  height: 15px; /* Adjust the size as needed */
   border-radius: 50%;
   background-color: orange; /* Orange color */
   pointer-events: none;
   z-index: 9999;
+  display: none; /* Initially hide the dot */
+  transition: transform 0.1s ease;
+}
+
+/* Show the dot on mouse movement */
+.show-mouse {
+  display: block;
 }
