@@ -1,5 +1,6 @@
 .hero {
   /* background-image: url('path/to/your/image.jpg'); */
+  background-color: bisque;
   background-size: cover;
   background-position: center;
   color: #fff;
