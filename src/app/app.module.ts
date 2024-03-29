@@ -9,6 +9,8 @@ import { AboutComponent } from './hero/about/about.component';
 import { ProjectsComponent } from './hero/projects/projects.component';
 import { ContactComponent } from './hero/contact/contact.component';
 import { CustomCursorDirective } from './custom-cursor.directive';
+import { ScrollRightDirective } from './scroll-right.directive';
+import { ScrollLeftDirective } from './scroll-left.directive';
 
 @NgModule({
   declarations: [
@@ -20,6 +22,8 @@ import { CustomCursorDirective } from './custom-cursor.directive';
     ProjectsComponent,
     ContactComponent,
     CustomCursorDirective,
+    ScrollRightDirective,
+    ScrollLeftDirective,
   ],
   imports: [BrowserModule],
   providers: [],
