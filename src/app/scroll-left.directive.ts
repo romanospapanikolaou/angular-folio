@@ -25,7 +25,7 @@ export class ScrollLeftDirective {
     }
 
     :host > * {
-      max-width: 800px; /* Adjust as needed */
+      max-width: 1200px; /* Adjust as needed */
       margin: 20px auto; /* Adjust as needed */
       padding: 20px;
       border: 1px solid #ccc;
