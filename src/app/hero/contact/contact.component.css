@@ -1,12 +1,16 @@
 .contact {
   background-color: #f9f9f9;
   padding: 50px;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .contact-content {
-  max-width: 800px;
-  margin: 0 auto;
   text-align: center;
 }
 
-/* Add styles for contact form or content */
+h1 {
+  font-size: 50px;
+  text-align: left;
+  text-decoration: line-through orange;
+}
