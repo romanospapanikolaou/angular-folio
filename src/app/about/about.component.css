@@ -1,6 +1,6 @@
 .about {
   padding: 50px;
-  height: 1000px;
+  height: 1200px;
 }
 
 .about-content {
@@ -10,12 +10,12 @@
 }
 
 h1 {
-  font-size: 50px;
+  font-size: 70px;
   text-align: right;
   text-decoration: line-through orange;
 }
 
 .about--text {
   text-align: left;
-  font-size: 30px;
+  font-size: 40px;
 }
