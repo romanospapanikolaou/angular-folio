@@ -6,7 +6,6 @@ import { HeaderComponent } from './header/header.component';
 import { HeroComponent } from './hero/hero.component';
 import { FooterComponent } from './footer/footer.component';
 import { AboutComponent } from './about/about.component';
-import { ProjectsComponent } from './projects/projects.component';
 import { ContactComponent } from './contact/contact.component';
 import { CustomCursorDirective } from './custom-cursor.directive';
 import { ScrollRightDirective } from './scroll-right.directive';
@@ -19,7 +18,6 @@ import { ScrollLeftDirective } from './scroll-left.directive';
     HeroComponent,
     FooterComponent,
     AboutComponent,
-    ProjectsComponent,
     ContactComponent,
     CustomCursorDirective,
     ScrollRightDirective,
