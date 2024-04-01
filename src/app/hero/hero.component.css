@@ -13,18 +13,18 @@
 
 .left {
   flex: 1;
-  margin-left: 100px;
+  margin-left: 800px;
   text-align: right;
 }
 
 .right {
   flex: 1;
   text-align: left;
+  margin-right: 800px;
 }
 
 .left h1,
 .right h1 {
-  font-size: 25rem;
-  font-weight: bold;
+  font-size: 28rem;
   margin: 50px;
 }
