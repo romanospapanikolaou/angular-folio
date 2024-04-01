@@ -17,8 +17,8 @@ export class CustomCursorDirective implements OnInit {
   ngOnInit(): void {
     // Create the cursor element
     this.cursorElement = this.renderer.createElement('div');
-    this.renderer.setStyle(this.cursorElement, 'width', '20px');
-    this.renderer.setStyle(this.cursorElement, 'height', '20px');
+    this.renderer.setStyle(this.cursorElement, 'width', '15px');
+    this.renderer.setStyle(this.cursorElement, 'height', '15px');
     this.renderer.setStyle(this.cursorElement, 'border-radius', '50%');
     this.renderer.setStyle(this.cursorElement, 'background-color', 'orange');
     this.renderer.setStyle(this.cursorElement, 'position', 'fixed');
