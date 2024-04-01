@@ -35,8 +35,30 @@ p {
   width: 0;
 }
 
-.social-link:hover,
-.social-link2:hover {
+.social-link:hover {
   color: orange;
   cursor: none;
+}
+
+.social-link:visited {
+  cursor: none;
+  color: var(--text-color);
+}
+
+.social-link:hover:visited {
+  color: orange;
+  cursor: none;
+}
+
+.email-link2 {
+  text-decoration: none;
+}
+.email-link2:hover {
+  color: orange;
+  cursor: none;
+}
+
+.email-link2 {
+  cursor: none;
+  color: var(--text-color);
 }
