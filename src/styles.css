@@ -2,6 +2,21 @@
   font-family: "Anta", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: rgb(236, 236, 236);
-  color: black;
+}
+
+/* Light Theme */
+:root {
+  --bg-color: #1f1f1f;
+  --text-color: #ffffff;
+}
+
+/* Dark Theme */
+.dark-theme {
+  --bg-color: #f8f8f8;
+  --text-color: #000000;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
 }

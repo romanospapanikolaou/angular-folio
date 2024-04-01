@@ -12,6 +12,7 @@ import { ScrollRightDirective } from './scroll-right.directive';
 import { ScrollLeftDirective } from './scroll-left.directive';
 import { UpdateYearDirective } from './update-year.directive';
 import { GlassPaneDirective } from './glass-pane.directive';
+import { ThemeToggleDirective } from './theme-toggle.directive';
 
 @NgModule({
   declarations: [
@@ -26,6 +27,7 @@ import { GlassPaneDirective } from './glass-pane.directive';
     ScrollLeftDirective,
     UpdateYearDirective,
     GlassPaneDirective,
+    ThemeToggleDirective,
   ],
   imports: [BrowserModule],
   providers: [],

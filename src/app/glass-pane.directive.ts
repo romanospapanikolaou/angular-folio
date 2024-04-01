@@ -21,7 +21,7 @@ export class GlassPaneDirective {
     this.renderer.setStyle(
       this.el.nativeElement,
       'background',
-      'rgba(255, 255, 255, 0.1)'
+      'rgba(255, 255, 255, 0)'
     );
     this.renderer.setStyle(this.el.nativeElement, 'filter', 'blur(0)');
   }
@@ -31,7 +31,7 @@ export class GlassPaneDirective {
     const scrollPosition = window.scrollY || document.documentElement.scrollTop;
 
     // Adjust these values based on your design
-    const blurAmount = scrollPosition / 30;
+    const blurAmount = scrollPosition / 70;
 
     this.renderer.setStyle(
       this.el.nativeElement,
