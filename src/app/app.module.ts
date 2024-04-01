@@ -13,6 +13,7 @@ import { ScrollLeftDirective } from './scroll-left.directive';
 import { UpdateYearDirective } from './update-year.directive';
 import { GlassPaneDirective } from './glass-pane.directive';
 import { ThemeToggleDirective } from './theme-toggle.directive';
+import { LinkHoverAnimationDirective } from './link-hover-animation.directive';
 
 @NgModule({
   declarations: [
@@ -28,6 +29,7 @@ import { ThemeToggleDirective } from './theme-toggle.directive';
     UpdateYearDirective,
     GlassPaneDirective,
     ThemeToggleDirective,
+    LinkHoverAnimationDirective,
   ],
   imports: [BrowserModule],
   providers: [],
