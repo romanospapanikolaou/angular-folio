@@ -12,13 +12,8 @@
         <li><a routerLink="/about">About</a></li>
         <li><a routerLink="/contact">Contact</a></li>
         <li>
-          <a appThemeToggle>
-            <img
-              width="25"
-              height="25"
-              src="https://img.icons8.com/pulsar-gradient/48/moon-symbol.png"
-              alt="moon-symbol"
-            />
+          <a appThemeToggle (click)="changeIcon()">
+            <img width="25" height="25" [src]="iconSrc" alt="moon-symbol" />
           </a>
         </li>
       </ul>
