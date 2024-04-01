@@ -11,6 +11,7 @@ import { CustomCursorDirective } from './custom-cursor.directive';
 import { ScrollRightDirective } from './scroll-right.directive';
 import { ScrollLeftDirective } from './scroll-left.directive';
 import { UpdateYearDirective } from './update-year.directive';
+import { GlassPaneDirective } from './glass-pane.directive';
 
 @NgModule({
   declarations: [
@@ -24,6 +25,7 @@ import { UpdateYearDirective } from './update-year.directive';
     ScrollRightDirective,
     ScrollLeftDirective,
     UpdateYearDirective,
+    GlassPaneDirective,
   ],
   imports: [BrowserModule],
   providers: [],
