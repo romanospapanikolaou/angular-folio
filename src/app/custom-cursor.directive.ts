@@ -35,8 +35,8 @@ export class CustomCursorDirective implements OnInit {
 
     // Create the outer cursor element (bigger circle)
     this.outerCursorElement = this.renderer.createElement('div');
-    this.renderer.setStyle(this.outerCursorElement, 'width', '60px');
-    this.renderer.setStyle(this.outerCursorElement, 'height', '60px');
+    this.renderer.setStyle(this.outerCursorElement, 'width', '80px');
+    this.renderer.setStyle(this.outerCursorElement, 'height', '80px');
     this.renderer.setStyle(
       this.outerCursorElement,
       'border',
