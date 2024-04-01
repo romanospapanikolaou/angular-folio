@@ -1,6 +1,6 @@
 .about {
   padding: 50px;
-  height: 1200px;
+  height: 100vh;
 }
 
 .about-content {
@@ -10,9 +10,20 @@
 }
 
 h1 {
+  position: relative;
   font-size: 70px;
   text-align: right;
-  text-decoration: line-through orange;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background-color: orange;
+  transform: translateY(-50%);
 }
 
 .about--text {

@@ -1,3 +1,5 @@
+/* Add this to your global CSS file or the component's CSS file */
+
 .contact {
   padding: 50px;
   margin: 0 auto;
@@ -9,9 +11,20 @@
 }
 
 h1 {
+  position: relative;
   font-size: 70px;
   text-align: left;
-  text-decoration: line-through orange;
+}
+
+h1::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 100%;
+  height: 15px;
+  background-color: orange;
+  transform: translateY(-50%);
 }
 
 p {
@@ -27,4 +40,5 @@ p {
 
 .social-link:hover {
   color: orange;
+  cursor: none;
 }
