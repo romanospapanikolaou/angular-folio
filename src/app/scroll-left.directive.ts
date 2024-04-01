@@ -28,8 +28,6 @@ export class ScrollLeftDirective {
       max-width: 1200px; /* Adjust as needed */
       margin: 20px auto; /* Adjust as needed */
       padding: 20px;
-      border: 1px solid #ccc;
-      background-color: #f9f9f9;
     }
   `,
   ];
