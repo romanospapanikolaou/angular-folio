@@ -10,6 +10,7 @@ import { ContactComponent } from './contact/contact.component';
 import { CustomCursorDirective } from './custom-cursor.directive';
 import { ScrollRightDirective } from './scroll-right.directive';
 import { ScrollLeftDirective } from './scroll-left.directive';
+import { UpdateYearDirective } from './update-year.directive';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import { ScrollLeftDirective } from './scroll-left.directive';
     CustomCursorDirective,
     ScrollRightDirective,
     ScrollLeftDirective,
+    UpdateYearDirective,
   ],
   imports: [BrowserModule],
   providers: [],
