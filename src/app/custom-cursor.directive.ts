@@ -18,8 +18,8 @@ export class CustomCursorDirective implements OnInit {
   ngOnInit(): void {
     // Create the cursor element
     this.cursorElement = this.renderer.createElement('div');
-    this.renderer.setStyle(this.cursorElement, 'width', '10px');
-    this.renderer.setStyle(this.cursorElement, 'height', '10px');
+    this.renderer.setStyle(this.cursorElement, 'width', '15px');
+    this.renderer.setStyle(this.cursorElement, 'height', '15px');
     this.renderer.setStyle(this.cursorElement, 'border-radius', '50%');
     this.renderer.setStyle(this.cursorElement, 'background-color', 'orange');
     this.renderer.setStyle(this.cursorElement, 'position', 'fixed');
@@ -35,8 +35,8 @@ export class CustomCursorDirective implements OnInit {
 
     // Create the outer cursor element (bigger circle)
     this.outerCursorElement = this.renderer.createElement('div');
-    this.renderer.setStyle(this.outerCursorElement, 'width', '80px');
-    this.renderer.setStyle(this.outerCursorElement, 'height', '80px');
+    this.renderer.setStyle(this.outerCursorElement, 'width', '85px');
+    this.renderer.setStyle(this.outerCursorElement, 'height', '85px');
     this.renderer.setStyle(
       this.outerCursorElement,
       'border',
@@ -54,7 +54,7 @@ export class CustomCursorDirective implements OnInit {
     this.renderer.setStyle(
       this.outerCursorElement,
       'transition',
-      'all 0.05s ease'
+      'all 0.1s ease'
     );
     this.renderer.setStyle(this.outerCursorElement, 'opacity', '0');
 
