@@ -26,24 +26,23 @@ h1::before {
 }
 
 p {
-  text-align: left;
+  text-align: right;
   font-size: 50px;
-  padding-top: 100px;
 }
 
 .social-link2 {
   display: inline-block;
   margin-right: 10px;
   text-decoration: none;
-  text-align: right;
-  font-size: 80px;
+  font-size: 50px;
 }
 
 .social-link {
   display: block;
   text-decoration: none;
-  text-align: right;
-  font-size: 80px;
+  text-align: left;
+  font-size: 50px;
+  width: 0;
 }
 
 .social-link:hover,
