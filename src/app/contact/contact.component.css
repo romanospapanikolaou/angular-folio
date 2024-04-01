@@ -31,7 +31,7 @@ p {
   padding-top: 100px;
 }
 
-.social-link {
+.social-link2 {
   display: inline-block;
   margin-right: 10px;
   text-decoration: none;
@@ -39,7 +39,15 @@ p {
   font-size: 80px;
 }
 
-.social-link:hover {
+.social-link {
+  display: block;
+  text-decoration: none;
+  text-align: right;
+  font-size: 80px;
+}
+
+.social-link:hover,
+.social-link2:hover {
   color: orange;
   cursor: none;
 }
