@@ -13,7 +13,6 @@ export class GlassPaneDirective {
   constructor(private renderer: Renderer2, private el: ElementRef) {
     // Add initial styles to the element
     this.renderer.setStyle(this.el.nativeElement, 'pointer-events', 'none'); // Allows clicks to pass through
-    this.renderer.setStyle(this.el.nativeElement, 'z-index', ''); // Ensure the glass pane is on top of other content
     this.renderer.setStyle(
       this.el.nativeElement,
       'transition',
