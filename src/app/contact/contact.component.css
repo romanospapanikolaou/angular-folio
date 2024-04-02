@@ -15,12 +15,13 @@ h1 {
   text-decoration: line-through orange 5px;
 }
 
-p {
+p,
+a {
   text-align: right;
   font-size: 50px;
 }
 
-.social-link2 {
+.social-link2 a {
   display: inline-block;
   margin-right: 10px;
   text-decoration: none;
@@ -52,6 +53,8 @@ p {
 
 .email-link2 {
   text-decoration: none;
+  display: block;
+  text-align: right;
 }
 .email-link2:hover {
   color: orange;
