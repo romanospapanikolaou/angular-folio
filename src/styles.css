@@ -22,9 +22,9 @@ body {
 }
 
 /* Media Query for Tablets (768px) */
-@media (min-width: 768px) and (max-width: 991px) {
+@media (min-width: 768px) and (max-width: 1300px) {
 }
 
-/* Media Query for Laptops/Desktops (992px and above) */
-@media (min-width: 992px) {
+/* Media Query for Laptops/Desktops (1300px and above) */
+@media (min-width: 1300px) {
 }
