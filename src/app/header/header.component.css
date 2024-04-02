@@ -10,12 +10,14 @@
 
 .header .left h1 {
   margin: 0;
-  font-size: 24px;
+  font-size: 30px;
+  font-weight: 300;
 }
 
 .header .center h4 {
   margin: 0;
   font-size: 18px;
+  font-weight: 300;
 }
 
 .header .right nav ul {
@@ -35,5 +37,6 @@
 
 .header .right nav ul li a {
   text-decoration: none;
-  font-size: 20px;
+  font-size: 25px;
+  font-weight: 300;
 }

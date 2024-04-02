@@ -1,6 +1,6 @@
 .about {
   padding: 50px;
-  height: 100vh;
+  height: 110vh;
 }
 
 .about-content {
@@ -16,7 +16,7 @@ h1 {
 }
 
 .about--text {
-  padding-top: 300px;
+  padding-top: 200px;
   text-align: left;
   font-size: 40px;
 }

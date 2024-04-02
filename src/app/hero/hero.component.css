@@ -1,5 +1,5 @@
 .hero {
-  height: 100vh;
+  height: 110vh;
   display: flex;
   justify-content: center;
   overflow-x: hidden;
@@ -12,19 +12,20 @@
 }
 
 .left {
-  flex: 1;
+  flex: 20;
   margin-left: 800px;
   text-align: right;
+  margin-top: 200px;
 }
 
 .right {
-  flex: 1;
+  flex: 20;
   text-align: left;
   margin-right: 800px;
 }
 
 .left h1,
 .right h1 {
-  font-size: 28rem;
-  margin: 50px;
+  font-size: 15rem;
+  font-weight: 900;
 }
