@@ -15,6 +15,7 @@ import { GlassPaneDirective } from './glass-pane.directive';
 import { ThemeToggleDirective } from './theme-toggle.directive';
 import { LinkHoverAnimationDirective } from './link-hover-animation.directive';
 import { TypingEffectDirective } from './typing-effect.directive';
+import { AppRoutingModule } from './app-routing.module';
 
 @NgModule({
   declarations: [
@@ -33,7 +34,7 @@ import { TypingEffectDirective } from './typing-effect.directive';
     LinkHoverAnimationDirective,
     TypingEffectDirective,
   ],
-  imports: [BrowserModule],
+  imports: [BrowserModule, AppRoutingModule],
   providers: [],
   bootstrap: [AppComponent],
 })
