@@ -12,14 +12,12 @@
 }
 
 .left {
-  flex: 20;
   margin-left: 800px;
   text-align: right;
-  margin-top: 400px;
+  margin-top: 200px;
 }
 
 .right {
-  flex: 20;
   text-align: left;
   margin-right: 800px;
 }
