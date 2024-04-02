@@ -23,6 +23,56 @@ body {
 
 /* Media Query for Tablets (768px) */
 @media (min-width: 768px) and (max-width: 1300px) {
+  /* hero */
+
+  .left h1,
+  .right h1 {
+    font-size: 10rem !important;
+  }
+
+  .content {
+    margin-left: 400px !important;
+  }
+
+  .content {
+    margin-right: 400px !important;
+  }
+  /* header */
+  .header .left h1 {
+    font-size: larger !important;
+  }
+
+  .header .center h4 {
+    display: none;
+  }
+
+  .header .right nav ul li a {
+    font-size: larger !important;
+  }
+
+  .who {
+    font-size: 50px !important;
+  }
+  /* about */
+  .about--text {
+    font-size: 40px !important;
+  }
+  /* contact */
+
+  .social-link {
+    font-size: 40px !important;
+  }
+
+  .email-link2 {
+    font-size: 40px !important;
+  }
+
+  .contact-me {
+    font-size: 50px !important;
+  }
+  .wanna {
+    font-size: 50px !important;
+  }
 }
 
 /* Media Query for Laptops/Desktops (1300px and above) */
