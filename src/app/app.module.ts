@@ -14,6 +14,7 @@ import { UpdateYearDirective } from './update-year.directive';
 import { GlassPaneDirective } from './glass-pane.directive';
 import { ThemeToggleDirective } from './theme-toggle.directive';
 import { LinkHoverAnimationDirective } from './link-hover-animation.directive';
+import { TypingEffectDirective } from './typing-effect.directive';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { LinkHoverAnimationDirective } from './link-hover-animation.directive';
     GlassPaneDirective,
     ThemeToggleDirective,
     LinkHoverAnimationDirective,
+    TypingEffectDirective,
   ],
   imports: [BrowserModule],
   providers: [],
