@@ -1,7 +1,7 @@
 .contact {
   padding: 50px;
   margin: 0 auto;
-  height: 80vh;
+  height: 75vh;
 }
 
 .contact-content {
@@ -21,17 +21,10 @@ a {
   font-size: 50px;
 }
 
-.social-link2 a {
-  display: inline-block;
-  margin-right: 10px;
-  text-decoration: none;
-  font-size: 50px;
-}
-
 .social-link {
-  display: block;
+  margin: 40px;
+  display: inline-table;
   text-decoration: none;
-  text-align: left;
   font-size: 50px;
   width: 0;
 }
@@ -52,9 +45,9 @@ a {
 }
 
 .email-link2 {
-  text-decoration: none;
   display: block;
-  text-align: right;
+  text-decoration: none;
+  font-size: 50px;
 }
 .email-link2:hover {
   color: orange;
@@ -64,4 +57,11 @@ a {
 .email-link2 {
   cursor: none;
   color: var(--text-color);
+}
+
+.contact-me {
+  display: block;
+  padding-top: 20px;
+  text-align: left;
+  font-size: 70px;
 }
