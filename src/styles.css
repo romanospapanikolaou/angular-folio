@@ -78,3 +78,65 @@ body {
 /* Media Query for Laptops/Desktops (1300px and above) */
 @media (min-width: 1300px) {
 }
+
+/* Media Query for phones (768px) and smaller */
+@media (min-width: 360px) and (max-width: 768px) {
+  /* hero */
+
+  .left h1,
+  .right h1 {
+    font-size: 8rem !important;
+  }
+
+  .content {
+    margin-left: 10px !important;
+    margin-top: 200px;
+  }
+
+  .content {
+    margin-right: 30px !important;
+  }
+
+  /* header */
+  .header .left h1 {
+    font-size: larger !important;
+    display: none;
+  }
+
+  .header .center h4 {
+    display: none;
+  }
+
+  .header .right nav ul li a {
+    font-size: large !important;
+    padding: 0;
+  }
+  /* about */
+
+  .who {
+    font-size: 30px !important;
+  }
+  .about--text {
+    font-size: 30px !important;
+  }
+  /* contact */
+
+  .social-link {
+    font-size: 20px !important;
+    display: block !important;
+  }
+
+  .email-link2 {
+    font-size: 20px !important;
+  }
+
+  .contact-me {
+    font-size: 25px !important;
+  }
+  .wanna {
+    font-size: 25px !important;
+  }
+  .just {
+    font-size: 25px !important;
+  }
+}
