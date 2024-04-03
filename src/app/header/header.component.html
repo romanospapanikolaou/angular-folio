@@ -9,23 +9,13 @@
     <nav>
       <ul>
         <li>
-          <a
-            routerLink="/"
-            routerLinkActive="active"
-            [routerLinkActiveOptions]="{ exact: true }"
-            class="nav-link"
-            >Home</a
-          >
+          <a href="#home" class="nav-link">Home</a>
         </li>
         <li>
-          <a routerLink="/about" routerLinkActive="active" class="nav-link"
-            >About</a
-          >
+          <a href="#about" class="nav-link">About</a>
         </li>
         <li>
-          <a routerLink="/contact" routerLinkActive="active" class="nav-link"
-            >Contact</a
-          >
+          <a href="#contact" class="nav-link">Contact</a>
         </li>
         <li>
           <a appThemeToggle (click)="changeIcon()">

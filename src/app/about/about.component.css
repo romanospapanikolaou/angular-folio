@@ -9,6 +9,8 @@
 }
 
 h1 {
+  padding-top: 100px;
+
   position: relative;
   font-size: 70px;
   text-align: right;

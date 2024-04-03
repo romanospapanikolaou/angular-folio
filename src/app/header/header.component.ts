@@ -6,6 +6,9 @@ import { Component } from '@angular/core';
   styleUrl: './header.component.css',
 })
 export class HeaderComponent {
+  isLinkActive(arg0: string): any {
+    throw new Error('Method not implemented.');
+  }
   iconSrc: string = 'https://img.icons8.com/pulsar-gradient/48/moon-symbol.png';
 
   changeIcon() {
