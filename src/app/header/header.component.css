@@ -4,7 +4,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 30px;
+  background: transparent;
+  backdrop-filter: blur(10px);
   z-index: 1000; /* Ensure it's above other content */
 }
 
