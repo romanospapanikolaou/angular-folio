@@ -16,6 +16,7 @@ import { ThemeToggleDirective } from './theme-toggle.directive';
 import { LinkHoverAnimationDirective } from './link-hover-animation.directive';
 import { TypingEffectDirective } from './typing-effect.directive';
 import { AppRoutingModule } from './app-routing.module';
+import { ActiveLinkDirective } from './activelink.directive';
 
 @NgModule({
   declarations: [
@@ -33,6 +34,7 @@ import { AppRoutingModule } from './app-routing.module';
     ThemeToggleDirective,
     LinkHoverAnimationDirective,
     TypingEffectDirective,
+    ActiveLinkDirective,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

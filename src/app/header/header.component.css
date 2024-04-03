@@ -30,11 +30,11 @@
 }
 
 .header .right nav ul li {
-  margin-right: 40px;
+  margin-right: 10px;
 }
 
 .header .right nav ul li:last-child {
-  margin-right: 40px;
+  margin-right: 100px;
 }
 
 .header .right nav ul li a {
@@ -47,6 +47,7 @@
   position: relative;
   display: inline-block;
   padding: 10px 20px;
+
   color: var(--text-color);
   text-decoration: none;
 }
