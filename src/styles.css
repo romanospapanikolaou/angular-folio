@@ -73,6 +73,14 @@ body {
   .wanna {
     font-size: 50px !important;
   }
+  .contact-text {
+    font-size: 200px !important;
+  }
+
+  .about-text2 {
+    font-size: 200px !important;
+    top: 1400px !important;
+  }
 }
 
 /* Media Query for Laptops/Desktops (1300px and above) */
@@ -119,6 +127,7 @@ body {
   .about--text {
     font-size: 30px !important;
   }
+
   /* contact */
 
   .social-link {
