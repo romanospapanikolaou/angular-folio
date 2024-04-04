@@ -22,3 +22,15 @@ h1 {
   text-align: left;
   font-size: 70px;
 }
+
+.about-text2 {
+  position: absolute;
+  right: 0;
+  top: 1700px;
+  margin: 10px;
+  font-size: 300px;
+  color: var(--bg-color);
+  -webkit-text-stroke: 1px var(--text-color);
+  writing-mode: vertical-lr;
+  text-orientation: mixed;
+}
