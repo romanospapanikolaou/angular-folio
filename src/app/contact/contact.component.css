@@ -67,12 +67,3 @@ a {
   text-align: left;
   font-size: 70px;
 }
-
-.contact-text {
-  position: absolute;
-  right: 0;
-  margin: 10px;
-  font-size: 300px;
-  color: var(--bg-color);
-  -webkit-text-stroke: 1px var(--text-color);
-}
