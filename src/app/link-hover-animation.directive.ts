@@ -15,7 +15,7 @@ export class LinkHoverAnimationDirective {
   }
 
   private hoverAnimation(isHovered: boolean) {
-    const scale = isHovered ? 1.2 : 1;
+    const scale = isHovered ? 1.3 : 1;
     this.renderer.setStyle(
       this.el.nativeElement,
       'transform',
