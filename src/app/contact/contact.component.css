@@ -18,14 +18,14 @@ h1 {
 }
 
 p {
-  padding: 20px;
+  padding: 40px;
 
   text-align: left;
   font-size: 50px;
 }
 
 .social-link {
-  padding: 20px;
+  padding: 40px;
   display: inline-table;
   text-decoration: none;
   font-size: 50px;
@@ -49,7 +49,6 @@ p {
 
 .email-link2 {
   padding: 20px;
-  display: block;
   text-decoration: none;
   font-size: 50px;
   width: 0;
