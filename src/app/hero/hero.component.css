@@ -28,3 +28,17 @@
   font-size: 15rem;
   font-weight: 900;
 }
+
+.animate__animated.animate__lightSpeedInLeft {
+  display: inline-block;
+
+  animation: lightSpeedInLeft; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+}
+
+.animate__animated.animate__lightSpeedInRight {
+  display: inline-block;
+
+  animation: lightSpeedInRight; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 4s; /* don't forget to set a duration! */
+}

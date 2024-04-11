@@ -55,3 +55,25 @@
 .nav-link.active {
   color: orange;
 }
+
+/* This only changes this particular animation duration */
+.animate__animated.animate__rollIn {
+  display: inline-block;
+
+  animation: rollIn; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3s; /* don't forget to set a duration! */
+}
+
+.animate__animated.animate__zoomInDown {
+  display: inline-block;
+
+  animation: zoomInDown; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 3s; /* don't forget to set a duration! */
+}
+
+.animate__animated.animate__shakeY {
+  display: inline-block;
+
+  animation: shakeY; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 7s; /* don't forget to set a duration! */
+}

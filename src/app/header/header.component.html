@@ -1,8 +1,8 @@
 <header class="header">
-  <div class="left">
+  <div class="left" class="animate__animated animate__rollIn">
     <h1>RomanosPapanikolaou</h1>
   </div>
-  <div class="center">
+  <div class="center" class="animate__animated animate__zoomInDown">
     <h4>FRONT-END DEVELOPER</h4>
   </div>
   <div class="right">
@@ -19,7 +19,13 @@
         </li>
         <li>
           <a appThemeToggle (click)="changeIcon()">
-            <img width="30" height="30" [src]="iconSrc" alt="moon-symbol" />
+            <img
+              class="animate__animated animate__shakeY"
+              width="30"
+              height="30"
+              [src]="iconSrc"
+              alt="moon-symbol"
+            />
           </a>
         </li>
       </ul>
