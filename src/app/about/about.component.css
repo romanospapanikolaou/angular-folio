@@ -22,3 +22,11 @@ h1 {
   text-align: left;
   font-size: 50px;
 }
+
+/* This only changes this particular animation duration */
+.animate__animated.animate__flipInX {
+  display: inline-block;
+
+  animation: flipInX; /* referring directly to the animation's @keyframe declaration */
+  animation-duration: 5s; /* don't forget to set a duration! */
+}
