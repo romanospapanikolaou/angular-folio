@@ -7,7 +7,10 @@ export class ActiveLinkDirective implements OnInit {
   constructor(private el: ElementRef) {}
 
   ngOnInit(): void {
-    this.setActiveClass();
+    // Set 'active' class explicitly on the 'home' link during initialization
+    if (this.el.nativeElement.getAttribute('section-id') === 'home') {
+      this.el.nativeElement.classList.add('active');
+    }
   }
 
   @HostListener('click') onClick() {
