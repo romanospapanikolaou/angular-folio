@@ -13,7 +13,6 @@ import { ScrollLeftDirective } from './scroll-left.directive';
 import { UpdateYearDirective } from './update-year.directive';
 import { GlassPaneDirective } from './glass-pane.directive';
 import { ThemeToggleDirective } from './theme-toggle.directive';
-import { LinkHoverAnimationDirective } from './link-hover-animation.directive';
 import { TypingEffectDirective } from './typing-effect.directive';
 import { AppRoutingModule } from './app-routing.module';
 import { ActiveLinkDirective } from './activelink.directive';
@@ -34,7 +33,6 @@ import { MainComponent } from './main/main.component';
     UpdateYearDirective,
     GlassPaneDirective,
     ThemeToggleDirective,
-    LinkHoverAnimationDirective,
     TypingEffectDirective,
     ActiveLinkDirective,
     WelcomeComponent,
