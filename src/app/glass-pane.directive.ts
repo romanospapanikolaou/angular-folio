@@ -16,7 +16,7 @@ export class GlassPaneDirective {
     this.renderer.setStyle(
       this.el.nativeElement,
       'transition',
-      'filter 0.3s ease-out'
+      'filter 0.6s ease-out'
     ); // Optional: Add a transition for a smoother effect
     this.renderer.setStyle(
       this.el.nativeElement,
