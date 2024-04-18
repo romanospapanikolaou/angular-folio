@@ -7,15 +7,27 @@ export class ActiveLinkDirective implements OnInit {
   constructor(private el: ElementRef) {}
 
   ngOnInit(): void {
-    // Set 'active' class explicitly on the 'home' link during initialization
-    if (this.el.nativeElement.getAttribute('section-id') === 'home') {
-      this.el.nativeElement.classList.add('active');
-    }
+    this.setActiveClassOnScroll();
   }
 
   @HostListener('click') onClick() {
     this.setActiveClass();
     this.scrollToSection();
+  }
+
+  @HostListener('window:scroll', ['$event']) onScroll(event: Event) {
+    this.setActiveClassOnScroll();
+  }
+
+  private setActiveClassOnScroll() {
+    const sectionId = this.el.nativeElement.getAttribute('section-id');
+    const element = document.getElementById(sectionId);
+    const windowHeight = window.innerHeight;
+    const elementTop = element.getBoundingClientRect().top;
+
+    if (elementTop >= 0 && elementTop <= windowHeight) {
+      this.setActiveClass();
+    }
   }
 
   private setActiveClass() {
