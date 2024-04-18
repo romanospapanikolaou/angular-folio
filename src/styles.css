@@ -175,4 +175,7 @@ body {
   .just {
     font-size: 25px !important;
   }
+  p {
+    text-align: center !important;
+  }
 }
