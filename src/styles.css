@@ -22,7 +22,11 @@ body {
 }
 
 /* Media Query for Tablets (768px) */
-@media (min-width: 768px) and (max-width: 1300px) {
+@media (min-width: 768px) and (max-width: 1024px) {
+  * {
+    text-align: center;
+  }
+
   /* hero */
 
   .left h1,
@@ -39,27 +43,36 @@ body {
   }
   /* header */
   .header .left h1 {
-    font-size: larger !important;
+    font-size: large !important;
   }
 
-  .header .center h4 {
-    display: none;
+  .animate__animated.animate__zoomInDown {
+    animation: none !important;
+  }
+
+  .header .center h4,
+  .animate__animated.animate__zoomInDown {
+    display: none !important;
   }
 
   .header .right nav ul li a {
     font-size: larger !important;
   }
 
-  .who {
-    font-size: 50px !important;
-  }
   /* about */
   .about--text {
     font-size: 40px !important;
   }
+  .who {
+    text-align: center !important;
+
+    font-size: 50px !important;
+  }
   /* contact */
 
   .social-link {
+    text-align: center !important;
+    display: flexbox !important;
     font-size: 40px !important;
   }
 
@@ -68,15 +81,21 @@ body {
   }
 
   .contact-me {
+    text-align: center !important;
+
     font-size: 50px !important;
   }
   .wanna {
+    text-align: center !important;
     font-size: 50px !important;
+  }
+  p {
+    text-align: center !important;
   }
 }
 
-/* Media Query for Laptops/Desktops (1300px and above) */
-@media (min-width: 1300px) {
+/* Media Query for Laptops/Desktops (1024px and above) */
+@media (min-width: 1024px) {
 }
 
 /* Media Query for phones (768px) and smaller */
