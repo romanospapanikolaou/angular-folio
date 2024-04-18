@@ -12,6 +12,6 @@ export class WelcomeComponent implements OnInit {
   ngOnInit(): void {}
 
   revealMainContent() {
-    this.router.navigate(['/main']);
+    this.router.navigate(['main']);
   }
 }
