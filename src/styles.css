@@ -100,21 +100,23 @@ body {
 
 /* Media Query for phones (768px) and smaller */
 @media (min-width: 360px) and (max-width: 768px) {
+  * {
+    text-align: center;
+  }
   /* hero */
 
   .left h1,
   .right h1 {
-    font-size: 8rem !important;
+    font-size: 9rem !important;
+  }
+
+  /* .content {
+    margin-left: 500px !important;
   }
 
   .content {
-    margin-left: 10px !important;
-    margin-top: 200px;
-  }
-
-  .content {
-    margin-right: 30px !important;
-  }
+    margin-right: 500px !important;
+  } */
 
   /* header */
   .header .left h1 {
@@ -122,6 +124,14 @@ body {
     display: none;
   }
 
+  .animate__animated.animate__zoomInDown {
+    animation: none !important;
+  }
+
+  .header .center h4,
+  .animate__animated.animate__zoomInDown {
+    display: none !important;
+  }
   .header .center h4 {
     display: none;
   }
@@ -133,6 +143,8 @@ body {
   /* about */
 
   .who {
+    text-align: center !important;
+
     font-size: 30px !important;
   }
   .about--text {
@@ -143,7 +155,8 @@ body {
 
   .social-link {
     font-size: 20px !important;
-    display: block !important;
+    display: flexbox !important;
+    padding: 20px !important;
   }
 
   .email-link2 {
@@ -151,9 +164,12 @@ body {
   }
 
   .contact-me {
+    text-align: center !important;
     font-size: 25px !important;
   }
   .wanna {
+    text-align: center !important;
+
     font-size: 25px !important;
   }
   .just {
