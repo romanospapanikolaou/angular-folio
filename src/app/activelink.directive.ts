@@ -1,34 +1,33 @@
-import { Directive, ElementRef, HostListener } from '@angular/core';
+import { Directive, ElementRef, HostListener, OnInit } from '@angular/core';
 
 @Directive({
   selector: '[appActiveLink]',
 })
-export class ActiveLinkDirective {
+export class ActiveLinkDirective implements OnInit {
   constructor(private el: ElementRef) {}
 
-  @HostListener('window:scroll', [])
-  onScroll(): void {
-    const sections = document.querySelectorAll('section');
-    const scrollPosition = window.scrollY + 200;
-
-    sections.forEach((section: HTMLElement) => {
-      if (
-        scrollPosition >= section.offsetTop &&
-        scrollPosition <= section.offsetTop + section.offsetHeight
-      ) {
-        this.activateLink(section.id);
-      }
-    });
+  ngOnInit(): void {
+    this.setActiveClass();
   }
 
-  activateLink(id: string): void {
-    const links = document.querySelectorAll('.nav-link');
+  @HostListener('click') onClick() {
+    this.setActiveClass();
+    this.scrollToSection();
+  }
 
-    links.forEach((link: HTMLElement) => {
+  private setActiveClass() {
+    const links = document.querySelectorAll('.nav-link');
+    links.forEach((link) => {
       link.classList.remove('active');
-      if (link.getAttribute('href') === `#${id}`) {
-        link.classList.add('active');
-      }
     });
+    this.el.nativeElement.classList.add('active');
+  }
+
+  private scrollToSection() {
+    const sectionId = this.el.nativeElement.getAttribute('section-id');
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
   }
 }

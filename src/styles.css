@@ -6,14 +6,14 @@
 
 /* Light Theme */
 :root {
-  --bg-color: #1f1f1f;
-  --text-color: #ffffff;
+  --bg-color: #212529;
+  --text-color: #f8f9fa;
 }
 
 /* Dark Theme */
 .dark-theme {
-  --bg-color: #f6f6f6;
-  --text-color: #000000;
+  --bg-color: #f8f9fa;
+  --text-color: #212529;
 }
 
 body {

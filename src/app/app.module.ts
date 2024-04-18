@@ -17,6 +17,8 @@ import { LinkHoverAnimationDirective } from './link-hover-animation.directive';
 import { TypingEffectDirective } from './typing-effect.directive';
 import { AppRoutingModule } from './app-routing.module';
 import { ActiveLinkDirective } from './activelink.directive';
+import { WelcomeComponent } from './welcome/welcome.component';
+import { MainComponent } from './main/main.component';
 
 @NgModule({
   declarations: [
@@ -35,6 +37,8 @@ import { ActiveLinkDirective } from './activelink.directive';
     LinkHoverAnimationDirective,
     TypingEffectDirective,
     ActiveLinkDirective,
+    WelcomeComponent,
+    MainComponent,
   ],
   imports: [BrowserModule, AppRoutingModule],
   providers: [],

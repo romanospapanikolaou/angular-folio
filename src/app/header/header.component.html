@@ -9,13 +9,31 @@
     <nav>
       <ul>
         <li>
-          <a href="#home" class="nav-link" appActiveLink>Home</a>
+          <a
+            appActiveLink
+            section-id="home"
+            (click)="scrollToSection('home')"
+            class="nav-link"
+            >Home</a
+          >
         </li>
         <li>
-          <a href="#about" class="nav-link" appActiveLink>About</a>
+          <a
+            appActiveLink
+            section-id="about"
+            (click)="scrollToSection('about')"
+            class="nav-link"
+            >About</a
+          >
         </li>
         <li>
-          <a href="#contact" class="nav-link" appActiveLink>Contact</a>
+          <a
+            appActiveLink
+            section-id="contact"
+            (click)="scrollToSection('contact')"
+            class="nav-link"
+            >Contact</a
+          >
         </li>
         <li>
           <a appThemeToggle (click)="changeIcon()">
