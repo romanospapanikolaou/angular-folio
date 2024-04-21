@@ -25,8 +25,8 @@ export class ScrollRightDirective {
     }
 
     :host > * {
-      max-width: 1200px; /* Adjust as needed */
-      margin: 20px auto; /* Adjust as needed */
+      max-width: 1200px;
+      margin: 20px auto;
       padding: 20px;
     }
   `,
